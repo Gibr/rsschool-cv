@@ -2,10 +2,10 @@
 ![Photo](https://i.ibb.co/RCCBBz6/Gray-Scale.jpg)
 ## Junior Fronend Developer
 ## Contact info:
-**Phone:** +7 (905) 274-75-55
-**E-mail:** todayz@yandex.ru
-**LinkedIn:** https://www.linkedin.com/in/denpolitsarnov/
-**GitHub:** https://github.com/Gibr
+- **Phone:** +7 (905) 274-75-55
+- **E-mail:** todayz@yandex.ru
+- **LinkedIn:** https://www.linkedin.com/in/denpolitsarnov/
+- **GitHub:** https://github.com/Gibr
 ## Skills
  - Front-End:  **React** + **Redux**, **HTML, CSS**, **adaptive layout**
 - Back-End: **Node.js** + **Express**
