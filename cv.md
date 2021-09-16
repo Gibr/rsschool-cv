@@ -11,6 +11,14 @@
 - Back-End: **Node.js** + **Express**
 - DB: **MongoDB**
 - Misc.: **Git,** **npm/yarn**
+## Projects
+Tools for MMO game “Eve online”:
+https://eve-check.space/poly-react
+Interactive diagram, visualization of production reactions chain
+https://eve-check.space/moon-parser
+Game text data parser. Parsed data is displayed in a convenient table.
+Tool provides export to Google Sheets
+(default example allows to evaluate the functionality without entering data)
 ## Code example
 _Given a list of integers and a single sum value, return the first two values (parse from the left please) in order of appearance that add up to form the sum._
 ```javascript
