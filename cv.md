@@ -1,4 +1,5 @@
 # Denis Politsarnov
+![Photo](https://i.ibb.co/RCCBBz6/Gray-Scale.jpg)
 ## Junior Fronend Developer
 ## Contact info:
 **Phone:** +7 (905) 274-75-55
@@ -26,3 +27,11 @@ var sum_pairs=function(ints, s){
   }
 }
 ```
+## Employment history
+<ins>  04.2016-current time:</ins> freelance, APCS design
+<ins>12.2004-03.2016:</ins> Open Joint Stock Company «North West Power Engineering Center» ОАО «СевЗап НТЦ» ПЦ «Севзапэнергосетьпроект»
+Started as an engineer of the 3rd category, grew to the head of the group (department of design of industrial control systems).
+Design of automated process control systems, dispatching, telemechanics and  ASCME  for high-voltage electrical substations
+
+## Education
+2000-2006 гг: Saint Petersburg State University of Aerospace Instrumentation (SUAI). Engineer of “Automated Systems of Information Processing and Management” specialty
