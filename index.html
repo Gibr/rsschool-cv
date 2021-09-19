@@ -5,100 +5,104 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>CV</title>
 </head>
 
 <body>
-  <h1>Denis Politsarnov</h1>
-  <img id="photo" src="./images/GrayScale.jpg" alt="Denis Politsarnov photo" width="200" height="255">
-  <h2>Junior Fronend Developer</h2>
-  <section>
-    <h2>Contact info</h2>
-    <ul>
-      <li>
-        <b>Phone: </b>+7 (905) 274-75-55
-      </li>
-      <li>
-        <b>E-mail: </b>todayz@yandex.ru
-      </li>
-      <li>
-        <b>LinkedIn: </b>https://www.linkedin.com/in/denpolitsarnov/
-      </li>
-    </ul>
-  </section>
-  <section>
-    <h2>Skills</h2>
-    <ul>
-      <li>
-        <b>Front-End: </b>
-        React + Redux, HTML, CSS, adaptive layout
-      </li>
-      <li>
-        <b>Back-End: </b>
-        Node.js + Express
-      </li>
-      <li>
-        <b>DB: </b>
-        MongoDB
-      </li>
-      <li>
-        <b>Misc.: </b>
-        Git, npm/yarn
-      </li>
-    </ul>
-  </section>
-  <section>
-    <h2>Projects</h2>
-    Tools for MMO game “Eve online”:
-    <p>
-      <a href="https://eve-check.space/poly-react">
-        https://eve-check.space/poly-react
-      </a>
-      Interactive diagram, visualization of production reactions chain
-    </p>
-    <p>
-      <a href="https://eve-check.space/moon-parser">
-        https://eve-check.space/moon-parser
-      </a>
-      Game text data parser. Parsed data is displayed in a convenient table.
-      Tool provides export to Google Sheets
-      (default example allows to evaluate the functionality without entering data)
-    </p>
-  </section>
-  <section>
-    <h2>Code example</h2>
-    <i>Given a list of integers and a single sum value, return the first two values (parse from the left please) in
-      order of appearance that add up to form the sum.</i>
-    <pre>
-        const sum_pairs=function(ints, s){
-          let hash = {};
-          for (let i = 0; i < ints.length; i++) {
-            const add = s - ints[i];
-            if (hash[add] >= 0) {
-              return [add, ints[i]];
-            }
-            if (!hash[ints[i]]) {
-              hash[ints[i]] = i;
+  <main>
+    <h1>Denis Politsarnov</h1>
+    <figure>
+      <img id="photo" src="./images/GrayScale.jpg" alt="Denis Politsarnov photo" width="200" height="255">
+    </figure>
+    <h3>Junior Fronend Developer</h3>
+    <section>
+      <h2>Contact info</h2>
+      <ul>
+        <li>
+          <b>Phone: </b>+7 (905) 274-75-55
+        </li>
+        <li>
+          <b>E-mail: </b>todayz@yandex.ru
+        </li>
+        <li>
+          <b>LinkedIn: </b>https://www.linkedin.com/in/denpolitsarnov/
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>
+          <b>Front-End: </b>
+          React + Redux, HTML, CSS, adaptive layout
+        </li>
+        <li>
+          <b>Back-End: </b>
+          Node.js + Express
+        </li>
+        <li>
+          <b>DB: </b>
+          MongoDB
+        </li>
+        <li>
+          <b>Misc.: </b>
+          Git, npm/yarn
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Projects</h2>
+      Tools for MMO game “Eve online”:
+      <p>
+        <a href="https://eve-check.space/poly-react">
+          https://eve-check.space/poly-react
+        </a>
+        Interactive diagram, visualization of production reactions chain
+      </p>
+      <p>
+        <a href="https://eve-check.space/moon-parser">
+          https://eve-check.space/moon-parser
+        </a>
+        Game text data parser. Parsed data is displayed in a convenient table.
+        Tool provides export to Google Sheets
+        (default example allows to evaluate the functionality without entering data)
+      </p>
+    </section>
+    <section>
+      <h2>Code example</h2>
+      <i>Given a list of integers and a single sum value, return the first two values (parse from the left please) in
+        order of appearance that add up to form the sum.</i>
+      <pre><code>
+          const sum_pairs=function(ints, s){
+            let hash = {};
+            for (let i = 0; i &lt; ints.length; i++) {
+              const add = s - ints[i];
+              if (hash[add] >= 0) {
+                return [add, ints[i]];
+              }
+              if (!hash[ints[i]]) {
+                hash[ints[i]] = i;
+              }
             }
           }
-        }
-      </pre>
-  </section>
-  <section>
-    <h2>Employment history</h2>
-    <p>04.2016-current time: freelance, APCS design</p>
-    <p>12.2004-03.2016: Open Joint Stock Company «North West Power Engineering Center» ОАО «СевЗап НТЦ» ПЦ
-      «Севзапэнергосетьпроект» <br>
-      Started as an engineer of the 3rd category, grew to the head of the group (department of design of industrial
-      control systems).
-      Design of automated process control systems, dispatching, telemechanics and ASCME for high-voltage electrical
-      substations</p>
-  </section>
-  <section>
-    <h2>Education</h2>
-    <p>2000-2006 гг: Saint Petersburg State University of Aerospace Instrumentation (SUAI). Engineer of “Automated
-      Systems of Information Processing and Management” specialty</p>
-  </section>
+        </code></pre>
+    </section>
+    <section>
+      <h2>Employment history</h2>
+      <p>04.2016-current time: freelance, APCS design</p>
+      <p>12.2004-03.2016: Open Joint Stock Company «North West Power Engineering Center» ОАО «СевЗап НТЦ» ПЦ
+        «Севзапэнергосетьпроект» <br>
+        Started as an engineer of the 3rd category, grew to the head of the group (department of design of industrial
+        control systems).
+        Design of automated process control systems, dispatching, telemechanics and ASCME for high-voltage electrical
+        substations</p>
+    </section>
+    <section>
+      <h2>Education</h2>
+      <p>2000-2006 гг: Saint Petersburg State University of Aerospace Instrumentation (SUAI). Engineer of “Automated
+        Systems of Information Processing and Management” specialty</p>
+    </section>
+  </main>
   <footer>
     <a href="https://github.com/Gibr">GitHub</a>
     2021
