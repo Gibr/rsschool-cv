@@ -4,9 +4,17 @@ body {
   margin: 0 auto;
   max-width: 1200px;
   font-family: "Calibri", sans-serif;
+  font-size: 120%;
 }
 
 footer {
   display: flex;
   justify-content: space-around;
+}
+
+.name-photo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
