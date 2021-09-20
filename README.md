@@ -1,1 +1,1 @@
-https://gibr.github.io/rsschool-cv/cv
+https://gibr.github.io/rsschool-cv/
