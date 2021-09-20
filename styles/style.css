@@ -3,4 +3,10 @@ body {
   flex-direction: column;
   margin: 0 auto;
   max-width: 1200px;
+  font-family: "Calibri", sans-serif;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
 }
