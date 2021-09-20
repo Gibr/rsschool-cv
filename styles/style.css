@@ -12,9 +12,17 @@ footer {
   justify-content: space-around;
 }
 
+section {
+  margin: 0 10px 0 20px;
+}
+
 .name-photo {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.photo {
+  margin: 20px 0 0 0;
 }
