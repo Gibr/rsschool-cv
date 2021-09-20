@@ -7,29 +7,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles/style.css">
   <title>CV</title>
+  <link rel="stylesheet" href="//unpkg.com/@highlightjs/cdn-assets@11.2.0/styles/default.min.css">
+  <script src="//unpkg.com/@highlightjs/cdn-assets@11.2.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
 </head>
 
 <body>
   <main>
-    <h1>Denis Politsarnov</h1>
-    <figure>
-      <img id="photo" src="./images/GrayScale.jpg" alt="Denis Politsarnov photo" width="200" height="255">
-    </figure>
-    <h3>Junior Frontend Developer</h3>
-    <section>
-      <h2>Contact info</h2>
-      <ul>
-        <li>
-          <b>Phone: </b>+7 (905) 274-75-55
-        </li>
-        <li>
-          <b>E-mail: </b>todayz@yandex.ru
-        </li>
-        <li>
-          <b>LinkedIn: </b>https://www.linkedin.com/in/denpolitsarnov/
-        </li>
-      </ul>
+    <section class="name-photo">
+      <figure class="photo">
+        <img src="./images/GrayScale.jpg" alt="Denis Politsarnov photo" width="200" height="255">
+      </figure>
+      <div class="name">
+        <h1>Denis Politsarnov</h1>
+        <h3>Junior Frontend Developer</h3>
+      </div>
+      <section>
+        <h2>Contact info</h2>
+        <ul>
+          <li>
+            <b>Phone: </b>+7 (905) 274-75-55
+          </li>
+          <li>
+            <b>E-mail: </b>todayz@yandex.ru
+          </li>
+          <li>
+            <b>LinkedIn: </b>https://www.linkedin.com/in/denpolitsarnov/
+          </li>
+        </ul>
+      </section>
     </section>
+
     <section>
       <h2>About me</h2>
       <p>
@@ -80,7 +88,7 @@
       <h2>Code example</h2>
       <i>Given a list of integers and a single sum value, return the first two values (parse from the left please) in
         order of appearance that add up to form the sum.</i>
-      <pre><code>
+      <pre><code class="js">
           const sum_pairs=function(ints, s){
             let hash = {};
             for (let i = 0; i &lt; ints.length; i++) {
@@ -110,10 +118,14 @@
       <p>2000-2006 гг: Saint Petersburg State University of Aerospace Instrumentation (SUAI). Engineer of “Automated
         Systems of Information Processing and Management” specialty</p>
     </section>
+    <section>
+      <h2>Foreign languages</h2>
+      <p>English(A2)</p>
+    </section>
   </main>
   <footer>
     <a href="https://github.com/Gibr">GitHub</a>
-    2021
+    <span>2021</span>
     <a href="https://rs.school/js/">
       <img src="https://rs.school/images/rs_school_js.svg" alt="course logo" width="94" height="35">
     </a>
