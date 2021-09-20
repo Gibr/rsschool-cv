@@ -5,6 +5,7 @@ body {
   max-width: 1200px;
   font-family: "Calibri", sans-serif;
   font-size: 120%;
+  background-color: #f6f6f6;
 }
 
 footer {
@@ -21,8 +22,13 @@ section {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
 }
 
 .photo {
   margin: 20px 0 0 0;
+}
+
+main > section:nth-child(even) {
+  background-color: #ffe0b3;
 }
